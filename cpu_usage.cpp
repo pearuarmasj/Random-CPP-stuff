@@ -15,7 +15,7 @@ int main() {
         std::cerr << "PdhOpenQuery failed" << std::endl;
         return 1;
     }
-    
+
     unsigned int numCores = std::thread::hardware_concurrency();
     std::vector<PDH_HCOUNTER> counters;
     for (unsigned int i = 0; i < numCores; ++i) {
@@ -58,7 +58,6 @@ int main() {
             }
         }
 
-        // Optional: break or continue based on some condition
     }
 
     PdhCloseQuery(cpuQuery);
