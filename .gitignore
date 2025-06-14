@@ -1,0 +1,6 @@
+/BotsProjects/SyPB
+*.code-workspace
+/BotsProjects/.vscode
+/BotsProjects/.github
+/BotsProjects backup/SyPB
+/BotsProjects backup/.vscode
